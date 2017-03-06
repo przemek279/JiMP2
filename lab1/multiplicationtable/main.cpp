@@ -4,6 +4,8 @@
 #include <iostream>
 #include "MultiplicationTable.h"
 
+using namespace std;
+
 int main() {
     int tab[10][10] = {0};
 
@@ -11,10 +13,10 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            if(tab[i][j] < 10) std::cout << " ";
-            std::cout << tab[i][j] << " ";
+            if(tab[i][j] < 10) cout << " ";
+            cout << tab[i][j] << " ";
         }
-        std::cout << std::endl;
+        cout << endl;
     }
 }
 
