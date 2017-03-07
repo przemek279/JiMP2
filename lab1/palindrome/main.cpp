@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "Palindrome.h"
 
 using namespace std;
@@ -26,7 +27,9 @@ int main() {
             else
                 cout << "String \"" << str << "\" nie jest palindromem." << endl;
         }
+
         menu();
+
         cin >> key;
     }
     return 0;
